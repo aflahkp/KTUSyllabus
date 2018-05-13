@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.udsfgecw.ktusyllabus">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:noHistory="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sem"
+            android:label="@string/semt"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="com.udsfgecw.ktusyllabus.SEM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Branch"
+            android:label="@string/brtitle"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="com.udsfgecw.ktusyllabus.BRANCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Subject"
+            android:label="@string/subt"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="com.udsfgecw.ktusyllabus.SUBJECT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".QuestionPaperList"
+            android:theme="@style/AppTheme"
+            android:label="Question Papers"/>
+
+
+        <activity
+            android:name=".SemAndBranch"
+            android:label="QuickSyllabus - College Union GECW"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.udsfgecw.ktusyllabus.SEMANDSUBJECT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Text"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.udsfgecw.ktusyllabus.TEXT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AboutApp" android:label="About" android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".About"
+            android:label="@string/about"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.udsfgecw.ktusyllabus.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pdf"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.udsfgecw.ktusyllabus.PDF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NOPDF"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.udsfgecw.ktusyllabus.NOPDF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SubjectTabs"
+            android:label="@string/title_activity_subject_tabs"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

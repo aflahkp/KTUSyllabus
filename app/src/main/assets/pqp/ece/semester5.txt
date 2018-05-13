@@ -1,0 +1,6 @@
+Applied Electromagnetic Theory (EC303)
+Biomedical Engineering (EC365)
+Digital Signal Processing (EC301)
+Microprocessors & Microcontrollers (EC305)
+Power Electronics & Instrumentation (EC307)
+Principles of Management (HS300)

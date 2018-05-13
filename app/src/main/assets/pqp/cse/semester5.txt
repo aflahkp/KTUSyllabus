@@ -1,0 +1,6 @@
+-CS301- Theory of Computation Dec 2017
+-CS303- System Software Dec 2017
+-CS305- Microprocessors and Microcontrollers Dec 2017
+-CS307- Data Communication Dec 2017)
+-CS309- Graph Theory and Combinatorics Dec 2017
+-CS361- Soft Computing (Elective) Dec 2017

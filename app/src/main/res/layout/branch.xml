@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgblue"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:background="@color/DarkCyan"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/ece"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="30.0dip"
+        android:layout_marginTop="25.0dip"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/ecee"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/Black"
+        android:textSize="25.0sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/eee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30.0dip"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/eee"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/Black"
+        android:textSize="25.0sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/cse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30.0dip"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/cse"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/Black"
+        android:textSize="25.0sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/me"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30.0dip"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/me"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/Black"
+        android:textSize="25.0sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</LinearLayout>

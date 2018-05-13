@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="app_name">KTU Syllabus</string>
+    <string name="b_Browse_Syllabus">OPEN</string>
+    <string name="ecee">Electronics And Communication</string>
+    <string name="eee">Electrical And Electronics</string>
+    <string name="cse">Computer Science</string>
+    <string name="me">Mechanical</string>
+    <string name="ktu">KTU</string>
+    <string name="kan">KANNUR UNIVERSITY</string>
+    <string name="selu">SELECT UNIVERSITY</string>
+    <string name="sylt">Syllabus</string>
+    <string name="qpt">Question Papers</string>
+    <string name="firstyear">First Year</string>
+    <string name="sem3">Sem 3</string>
+    <string name="sem4">Sem 4</string>
+    <string name="pqp">Prev Year QPs</string>
+    <string name="nopdf">"Sorry no PDF reader installed on your device :(
+Install a PDF reader from playstore."</string>
+    <string name="getpdf">Get Adobe Reader</string>
+    <string name="mech">Mechanical</string>
+    <string name="set">Not set</string>
+    <string name="semt">Select Semester</string>
+    <string name="brtitle">Select Branch</string>
+    <string name="sem5">Sem 5</string>
+    <string name="sem6">Sem 6</string>
+    <string name="sem7">Sem 7</string>
+    <string name="sem8">Sem 8</string>
+    <string name="comingsoon">will be added soon</string>
+    <string name="examname">First Semester Examination, January 2016</string>
+    <string name="subt">Select Subject</string>
+    <string name="about">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="user">User Name</string>
+    <string name="pwd">Password</string>
+    <string name="fgtpwd">Remember password</string>
+    <string name="login">SIGNUP</string>
+    <string name="welcome">Create A New Account</string>
+    <string name="goback">Go Back</string>
+    <string name="style">Style</string>
+    <string name="gravity">POSITION</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="normal">Normal</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="center">Center</string>
+    <string name="clue">Enter any text in above column and click Generate!!</string>
+    <string name="hint">Enter Text Here</string>
+    <string name="generate">CREATE</string>
+    <string name="back">Back</string>
+    <string name="Help">Help</string>
+    <string name="About">About</string>
+    <string name="butt">TEST BUTTON</string>
+    <string name="toast">more info</string>
+    <string name="helpp">"1. PRESS SYLLABUS
+2.SELECT SEMESTER
+3.SCROLL TO NAVIGATE
+4.PRESS MENU BUTTON TO SEE OPTIONS
+"</string>
+    <string name="mix">MIXED TEST</string>
+    <string name="start">START</string>
+    <string name="dev">Developed by</string>
+    <string name="contents">List of Items</string>
+    <string name="end">EXIT</string>
+    <string name="opt">SYLLABUS</string>
+    <string name="s1s2">S1S2</string>
+    <string name="s3">S3</string>
+    <string name="s4">S4</string>
+    <string name="s5">S5</string>
+    <string name="s6">S6</string>
+    <string name="s7">S7</string>
+    <string name="s8">S8</string>
+    <string name="abt">ABOUT DEVELOPER</string>
+    <string name="det">MUHAMMED AFLAH</string>
+    <string name="det2">"This App has been developed forKTU students by providing an easy way to refer the syllabus across various branches. The Previous Question Paper of First Semester is also included.
+ 
+Developed by
+Muhammed Aflah
+9562346986
+aflahkp1@gmail.com"</string>
+    <string name="ec">E &amp; C ENGG. STUDENT</string>
+    <string name="blog">VISIT makeuseofdroid@blogspot.in</string>
+    <string name="det3">GOVT ENGG COLLEGE WAYANAD</string>
+    <string name="exit">Exit</string>
+    <string name="gate">GATE</string>
+    <string name="ece">ECE</string>
+    <string name="sem">Select Semester</string>
+    <string name="gotosem">Go to</string>
+    <string name="kannur">"For Kannur University
+ 2007 admission onwards"</string>
+    <string name="DEmo">working</string>
+    <string name="title_activity_subject_tabs">SubjectTabs</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="about_text">\t QuickSyllabus is an app by GECW College Union 2018 for KTU Students providing the quickest way to access syllabus and previous year question papers (more content coming soon..).  The app provides the content in least number of clicks and is completely ad free.</string>
+</resources>
